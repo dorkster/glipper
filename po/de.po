@@ -1,0 +1,310 @@
+# Deutsche Übersetzung
+# Copyright (C) 2006 Sven Rech
+# This file is distributed under the same license as the glipper package.
+# Sven Rech <svenrech@gmx.de>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 09:33+0100\n"
+"PO-Revision-Date: 2011-04-25 05:07+0000\n"
+"Last-Translator: Sven Rech <svenrech@gmx.de>\n"
+"Language-Team: German <svenrech@gmx.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-30 04:37+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
+"Language: de\n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>Leerer Verlauf</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "Pl_ugins"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "Ein Zwischenablagenverwalter."
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Glipper Website"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr "Sven Rech <svenrech@gmx.de>"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "Autostart"
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "Name"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../data/preferences-window.ui.h:1
+msgid "<Ctrl><Alt>c"
+msgstr "<Ctrl><Atl>c"
+
+#: ../data/preferences-window.ui.h:2
+msgid "<b>Behaviour</b>"
+msgstr "<b>Verhalten</b>"
+
+#: ../data/preferences-window.ui.h:3
+msgid "<b>Clipboards</b>"
+msgstr "<b>Zwischenablagen</b>"
+
+#: ../data/preferences-window.ui.h:4
+#, fuzzy
+msgid "Copy (Ctrl+C/Ctrl+V)"
+msgstr "Kopieren - Strg+C/Strg+V"
+
+#: ../data/preferences-window.ui.h:5
+#, fuzzy
+msgid "Glipper Preferences"
+msgstr "Glipper Einstellungen"
+
+#: ../data/preferences-window.ui.h:6
+msgid "Key combination for popup: "
+msgstr "Tastenkombination für das Pop-Up Menü: "
+
+#: ../data/preferences-window.ui.h:7
+#, fuzzy
+msgid "Number of items in history:"
+msgstr "Anzahl der Einträge im Verlauf:"
+
+#: ../data/preferences-window.ui.h:8
+msgid "Remember clipboard history on restart"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:9
+#, fuzzy
+msgid "Selection (mark/middle mouse button)"
+msgstr "Auswählen - Markieren/Mittlere Maustaste"
+
+#: ../data/preferences-window.ui.h:10
+msgid "Show current Ctrl+C contents in bold"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:11
+msgid "Which clipboards should be managed by Glipper?"
+msgstr "Welche Zwischenablagen sollen von Glipper verwaltet werden?"
+
+#: ../data/plugins-window.ui.h:1
+#, fuzzy
+msgid "Glipper plugins"
+msgstr "Glipper Benutzer"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "Keine Aktionen verfügbar"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr "Aktionen"
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr ""
+"Definiere Kommandos die ausgeführt werden sollen, sobald ein Eintrag auf "
+"einen regulären Ausdruck passt."
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "Füge Kommando hinzu"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "Lösche Aktion"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "Lösche Kommando"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "Neues Kommando"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "Trage Beschreibung hier ein"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "Neuer regulärer Ausdruck"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr "Netzwerk"
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"Verbinde mehrere Glipper Prozesse über das Netzwerk um ihren Verlauf zu "
+"synchronisieren"
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "Passwort"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"Du musst das Python Cryptography Toolkit (python-crypto) installierenfalls "
+"du verschlüsselte Verbindungen benutzen willst!"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "Neue Verbindung"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "Trage die IP Adresse ein: "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "Trage das Passwort für diese Verbindung ein: "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr "Neue Zeile"
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr ""
+"Beispiel Plugin, welches einen Zeilenumbruch am Ende eines Eintrages in der "
+"Zwischenablage einfügt"
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "Verlauf"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "Schnipsel"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "Keine Schnipsel verfügbar"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "Erzeuge Schnipsel von Verlaufseinträgen"
+
+#~ msgid "Paste the entry of your clipboard to a Nopaste service"
+#~ msgstr "Übergibt den Eintrag deiner Zwischenablage einem Nopaste Dienst"
+
+#~ msgid "pasted by Glipper"
+#~ msgstr "eingefügt von Glipper"
+
+#~ msgid "Grow"
+#~ msgstr "Wachsen"
+
+#~ msgid ""
+#~ "This plugin detects whether a new entry is just a grown version of the "
+#~ "previous one, and if so, deletes the previous."
+#~ msgstr ""
+#~ "Dieses Plugin erkennt ob ein neuer Eintrag nur eine gewachsene Variante "
+#~ "des Vorherigen ist, und falls es so ist, wird der Vorherige gelöscht."
+
+#~ msgid "<b>Limits</b>"
+#~ msgstr "<b>Limits</b>"
+
+#~ msgid "Length of one history entry:"
+#~ msgstr "Länge eines Verlaufeintrages:"
+
+#~ msgid "Save history"
+#~ msgstr "Sichere den Inhalt des Verlaufes"
+
+#~ msgid "Tag Ctrl+C clipboard's content in history (bold)"
+#~ msgstr "Markiere Strg+C Zwischenablageninhalt im Verlauf (fett)"
+
+#~ msgid "Action manager"
+#~ msgstr "Aktionsmanager"
+
+#~ msgid "Add action"
+#~ msgstr "Aktion hinzufügen"
+
+#~ msgid "Immediately show available actions"
+#~ msgstr "Zeige verfügbare Aktionen sofort an"
+
+#~ msgid "<b>Connections</b>"
+#~ msgstr "<b>Verbindungen</b>"
+
+#~ msgid "Accept connections from this hosts:"
+#~ msgstr "Akzeptiere Verbindungen von diesen Rechnern:"
+
+#~ msgid "Connect to:"
+#~ msgstr "Verbinde zu:"
+
+#~ msgid "Network preferences"
+#~ msgstr "Netzwerk Einstellungen"
+
+#~ msgid ""
+#~ "Please read the security informations about this plugin before using it!"
+#~ msgstr ""
+#~ "Bitte lies die Sicherheitsinformationen über dieses Plugin vor der "
+#~ "Nutzung!"
+
+#~ msgid "Language:"
+#~ msgstr "Sprache:"
+
+#~ msgid "Nopaste preferences"
+#~ msgstr "Nopaste Einstellungen"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "Snippets manager"
+#~ msgstr "Schnipselmanager"
+
+#~ msgid "Glipper - Popup shortcut: "
+#~ msgstr "Glipper - Popup Tastaturkürzel: "
+
+#~ msgid "_About"
+#~ msgstr "Ü_ber"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Einstellungen"
+
+#~ msgid "Clipboard manager"
+#~ msgstr "Zwischenablagenverwalter"
+
+#~ msgid "Manages clipboards"
+#~ msgstr "Verwaltet Zwischenablagen"
+
+#~ msgid "Popup available actions when a new item gets added to the history"
+#~ msgstr ""
+#~ "Zeige verfügbare Aktionen sobald ein neuer Eintrag zum Verlauf "
+#~ "hinzugefügt wird"

@@ -1,0 +1,341 @@
+# Czech translation of Glipper 1.0.
+# Copyright (C) 2008 Martin Picek <picek.martin@gnome-cesko.cz>
+# This file is distributed under the same license as the Glipper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Glipper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 09:33+0100\n"
+"PO-Revision-Date: 2011-04-25 05:08+0000\n"
+"Last-Translator: Martin Picek <picek.martin@gnome-cesko.cz>\n"
+"Language-Team: GNOME Czech Translation Team <gnome-cs-list@gnome.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-29 04:33+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
+"Language: \n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>Prázdná historie</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "Přídavné _moduly"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "Správce schránky."
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Webová stránka Glipper"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr ""
+"Martin Picek <picek.martin@gnome-cesko.cz>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Martin Picek https://launchpad.net/~picek-martin"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "Automatické spuštění"
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "Název"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "Popis"
+
+#: ../data/preferences-window.ui.h:1
+msgid "<Ctrl><Alt>c"
+msgstr "<Ctrl><Alt>c"
+
+#: ../data/preferences-window.ui.h:2
+msgid "<b>Behaviour</b>"
+msgstr "<b>Chování</b>"
+
+#: ../data/preferences-window.ui.h:3
+msgid "<b>Clipboards</b>"
+msgstr "<b>Schránky</b>"
+
+#: ../data/preferences-window.ui.h:4
+#, fuzzy
+msgid "Copy (Ctrl+C/Ctrl+V)"
+msgstr "Kopírování – Ctrl+C a Ctrl+V"
+
+#: ../data/preferences-window.ui.h:5
+#, fuzzy
+msgid "Glipper Preferences"
+msgstr "Nastavení Glipperu"
+
+#: ../data/preferences-window.ui.h:6
+msgid "Key combination for popup: "
+msgstr "Klávesová zkratka pro vyskakovací okno: "
+
+#: ../data/preferences-window.ui.h:7
+#, fuzzy
+msgid "Number of items in history:"
+msgstr "Počet položek v historii:"
+
+#: ../data/preferences-window.ui.h:8
+msgid "Remember clipboard history on restart"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:9
+#, fuzzy
+msgid "Selection (mark/middle mouse button)"
+msgstr "Výběr – označením nebo středním tlačítkem myši"
+
+#: ../data/preferences-window.ui.h:10
+msgid "Show current Ctrl+C contents in bold"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:11
+msgid "Which clipboards should be managed by Glipper?"
+msgstr "Jaké schránky mají být spravovány Glipperem?"
+
+#: ../data/plugins-window.ui.h:1
+#, fuzzy
+msgid "Glipper plugins"
+msgstr "Uživatel Glipperu"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "Nejsou dostupné žádné akce"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr "Akce"
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr ""
+"Nastavit příkazy, které se spustí, pokud položka odpovídá regulárnímu výrazu."
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "Přidat příkaz"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "Odstranit akci"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "Odstranit příkaz"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "Nový příkaz"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "Sem vložte příkaz"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "Nový regulární výraz"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr "Síť"
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"Propojit několik procesů Glipperu přes síť k synchronizování jejich historie."
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "Heslo"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"Musíte nainstalovat Python Cryptography Toolkit (python-crypto), chcete-li "
+"používat šifrovaná spojení!"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "Nové spojení"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "Vložte IP adresu: "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "Vložte heslo pro toto spojení: "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr "Nový řádek"
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr ""
+"Vzorový přídavný modul přidávající znak nového řádku na konec položek ve "
+"schránce."
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "Historie"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "Úryvky"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "Nejsou dostupné žádné úryvky"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "Vytvářet úryvky z položek historie."
+
+#~ msgid "Nopaste"
+#~ msgstr "Nopaste"
+
+#~ msgid "Paste the entry of your clipboard to a Nopaste service"
+#~ msgstr "Vkládat položky vaší schránky do služby Nopaste."
+
+#~ msgid "pasted by Glipper"
+#~ msgstr "vloženo Glipperem"
+
+#~ msgid "Grow"
+#~ msgstr "Aktualizace"
+
+#~ msgid ""
+#~ "This plugin detects whether a new entry is just a grown version of the "
+#~ "previous one, and if so, deletes the previous."
+#~ msgstr ""
+#~ "Tento modul zjišťuje, jestli je nová položka jen aktualizovanou verzí "
+#~ "nějaké starší. Pokud ano, stará položka je odstraněna."
+
+#~ msgid "<b>Limits</b>"
+#~ msgstr "<b>Omezení</b>"
+
+#~ msgid "Length of one history entry:"
+#~ msgstr "Délka jedné položky historie:"
+
+#~ msgid "Save history"
+#~ msgstr "Ukládat historii"
+
+#~ msgid "Tag Ctrl+C clipboard's content in history (bold)"
+#~ msgstr "Označit kopírovaný (Ctrl+C) obsah historie tučně"
+
+#~ msgid "Action manager"
+#~ msgstr "Správa akcí"
+
+#~ msgid "Add action"
+#~ msgstr "Přidat akci"
+
+#~ msgid "Immediately show available actions"
+#~ msgstr "Ihned zobrazovat dostupné akce"
+
+#~ msgid "<b>Connections</b>"
+#~ msgstr "<b>Spojení</b>"
+
+#~ msgid "Accept connections from this hosts:"
+#~ msgstr "Přijímat spojení od těchto hostitelů:"
+
+#~ msgid "Connect to:"
+#~ msgstr "Připojovat k:"
+
+#~ msgid "Network preferences"
+#~ msgstr "Nastavení sítě"
+
+#~ msgid ""
+#~ "Please read the security informations about this plugin before using it!"
+#~ msgstr ""
+#~ "Prosím, čtěte informace o bezpečnosti tohoto modulu před jeho použitím!"
+
+#~ msgid ""
+#~ "C (C89)\n"
+#~ "C (C99)\n"
+#~ "C++\n"
+#~ "C#\n"
+#~ "Java\n"
+#~ "Pascal\n"
+#~ "Perl\n"
+#~ "PHP\n"
+#~ "PL/I\n"
+#~ "Python\n"
+#~ "Ruby\n"
+#~ "SQL\n"
+#~ "Visual Basic\n"
+#~ "Plain Text"
+#~ msgstr ""
+#~ "C (C89)\n"
+#~ "C (C99)\n"
+#~ "C++\n"
+#~ "C#\n"
+#~ "Java\n"
+#~ "Pascal\n"
+#~ "Perl\n"
+#~ "PHP\n"
+#~ "PL/I\n"
+#~ "Python\n"
+#~ "Ruby\n"
+#~ "SQL\n"
+#~ "Visual Basic\n"
+#~ "Čistý text"
+
+#~ msgid "Language:"
+#~ msgstr "Jazyk:"
+
+#~ msgid "Nickname:"
+#~ msgstr "Přezdívka:"
+
+#~ msgid "Nopaste preferences"
+#~ msgstr "Nastavení Nopaste:"
+
+#~ msgid "Add"
+#~ msgstr "Přidat"
+
+#~ msgid "Remove"
+#~ msgstr "Odstranit"
+
+#~ msgid "Snippets manager"
+#~ msgstr "Správa úryvků"
+
+#~ msgid "Glipper - Popup shortcut: "
+#~ msgstr "Glipper – klávesová zkratka vyskakovacího okna je "
+
+#~ msgid "_About"
+#~ msgstr "O _aplikaci"
+
+#~ msgid "_Help"
+#~ msgstr "Nápo_věda"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Nastavení"
+
+#~ msgid "Clipboard manager"
+#~ msgstr "Správce schránky"
+
+#~ msgid "Manages clipboards"
+#~ msgstr "Spravování schránky"

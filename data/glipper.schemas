@@ -1,0 +1,93 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/glipper/max_elements</key>
+      <applyto>/apps/glipper/max_elements</applyto>
+      <owner>glipper</owner>
+      <type>int</type>
+      <default>20</default>
+      <locale name="C">
+        <short>Amount of elements in history</short>
+        <long>Amount of elements in history</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/max_item_length</key>
+      <applyto>/apps/glipper/max_item_length</applyto>
+      <owner>glipper</owner>
+      <type>int</type>
+      <default>35</default>
+      <locale name="C">
+        <short>Length of one history entry</short>
+        <long>Length of one history entry</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/use_default_clipboard</key>
+      <applyto>/apps/glipper/use_default_clipboard</applyto>
+      <owner>glipper</owner>
+      <type>bool</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Use Default Clipboard</short>
+        <long>Use Default Clipboard</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/use_primary_clipboard</key>
+      <applyto>/apps/glipper/use_primary_clipboard</applyto>
+      <owner>glipper</owner>
+      <type>bool</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Use Primary Clipboard</short>
+        <long>Use Primary Clipboard</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/mark_default_entry</key>
+      <applyto>/apps/glipper/mark_default_entry</applyto>
+      <owner>glipper</owner>
+      <type>bool</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Whether default entry should be tagged</short>
+        <long>Whether default entry should be tagged</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/save_history</key>
+      <applyto>/apps/glipper/save_history</applyto>
+      <owner>glipper</owner>
+      <type>bool</type>
+      <default>1</default>
+      <locale name="C">
+        <short>Whether history should be saved</short>
+        <long>Whether history should be saved</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/key_combination</key>
+      <applyto>/apps/glipper/key_combination</applyto>
+      <owner>glipper</owner>
+      <type>string</type>
+      <default>&lt;Ctrl&gt;&lt;Alt&gt;c</default>
+      <locale name="C">
+        <short>Keyboard combination to popup glipper</short>
+        <long>Keyboard combination to popup glipper</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/glipper/autostart_plugins</key>
+      <applyto>/apps/glipper/autostart_plugins</applyto>
+      <owner>glipper</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[nopaste]</default>
+      <locale name="C">
+        <short>the plugins to start at startup</short>
+        <long>the plugins to start when starting glipper</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

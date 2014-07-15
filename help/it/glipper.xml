@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4">
+<!ENTITY appversion "1.0">
+<!ENTITY manrevision "1.0">
+<!ENTITY date "2007-07-26">
+<!ENTITY app "<application>Glipper</application>">
+<!ENTITY appname "Glipper">
+]>
+<!-- =============Document Header ============================= -->
+<article id="index" lang="it"> 
+<!-- please do not change the id; for translations -->
+
+	<articleinfo>
+
+		<title>Manuale di Glipper</title>
+
+		<copyright>
+			<year>2007</year>
+			<holder>Gli sviluppatori di Glipper</holder>
+		</copyright><copyright><year>2007.</year><holder>Eugenio Depalo (eugeniodepalo@mac.com)</holder></copyright>
+
+		<!-- translators: uncomment this:
+		<copyright>
+			<year>20XX</year>
+			<holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+		</copyright>
+		-->
+
+		<publisher> 
+			<publishername>Gli sviluppatori di Glipper</publishername> 
+		</publisher> 
+
+		<authorgroup> 
+			<author> 
+				<firstname>Karderio</firstname> 
+				<affiliation> 
+					<orgname>Sviluppatore di Glipper</orgname> 
+					<address> <email>kardeio at gmail dot com</email> </address> 
+				</affiliation> 
+			</author> 
+			<author>
+				<firstname>Sven</firstname>
+				<surname>Rech</surname>
+				<affiliation>
+					<orgname>Sviluppatore di Glipper</orgname>
+					<address><email>svenrech at gmx dot de</email></address>
+				</affiliation>
+			</author>
+			<author>
+				<firstname>Eugenio</firstname>
+				<surname>Depalo</surname>
+				<affiliation>
+					<orgname>Sviluppatore di Glipper</orgname>
+					<address><email>eugeniodepalo at mac dot com</email></address>
+				</affiliation>
+			</author>
+			<!-- This is appropriate place for other contributors: translators,
+			      maintainers,  etc. Commented out by default.
+			       <othercredit role="translator">
+				<firstname>Latin</firstname> 
+				<surname>Translator 1</surname> 
+				<affiliation> 
+				  <orgname>Latin Translation Team</orgname> 
+				  <address> <email>translator@gnome.org</email> </address> 
+				</affiliation>
+				<contrib>Latin translation</contrib>
+			      </othercredit>
+			-->
+		</authorgroup>
+	    
+		<revhistory>
+			<revision>
+				<revnumber>Manuale di Glipper V1.0</revnumber>
+				<date>2007-07-26</date>
+				<revdescription>
+					<para role="author">Sven Rech</para>
+					<para role="author">Eugenio Depalo</para>
+				</revdescription>
+			</revision>
+			<revision> 
+				<revnumber>Manuale di Glipper V0.90</revnumber> 
+				<date>2006-06-27</date> 
+				<revdescription> 
+					<para role="author">karderio</para>
+					<para role="publisher">Gli sviluppatori di Glipper</para>
+				</revdescription> 
+			</revision> 
+		</revhistory> 
+
+		<releaseinfo>Questo manuale descrive la versione 1.0.</releaseinfo>
+
+		<legalnotice> 
+			<title>Feedback</title> 
+			<para>Per segnalare un bug o dare un consiglio riguardante l'applicazione Glipper o questo manuale, segui le istruzioni nella </para>
+			<!-- Translators may also add here feedback address for translations -->
+		</legalnotice> 
+
+	</articleinfo>
+
+	<indexterm zone="index"> 
+		<primary>Glipper</primary> 
+	</indexterm>
+
+ <!-- ============= Document Body ============================= -->
+
+ <!-- ============= Introduction ============================== -->
+ <sect1 id="intro">
+  <title>Introduzione</title>
+
+	<para><application>Glipper</application> è un'applet per GNOME per gestire i tuoi appunti.</para>
+
+	<para><application>Glipper</application> risiede nel pannello e colleziona tutto ciò che è copiato negli appunti. <application>Glipper</application> mantiene una cronologia sia degli appunti "copia", di solito riempiti con <keycombo><keycap>Ctrl+C</keycap></keycombo> sia degli appunti "selezione", riempiti quando si seleziona del testo.</para>
+
+	<para><application>Glipper</application> ti permette di scegliere una voce della cronologia per riempire il contenuto degli appunti.</para>
+
+	<para>La pagina web per <application>Glipper</application> può essere trovata nella <ulink url="http://glipper.sourceforge.net">Pagina del progetto Glipper</ulink></para>
+ </sect1>
+
+
+ <!-- ================ Usage ================================ -->
+ <!-- This section should describe basic usage of the application. -->
+
+  <sect1 id="usage">
+    <title>Utilizzo</title>
+
+	<sect2 id="starting">
+		<title>Avviare Glipper</title>
+
+		<para>Per avviare <application>Glipper</application>, clicca con il pulsante destro sul pannello di GNOME e seleziona <guimenuitem>Aggiungi al pannello</guimenuitem>. Seleziona <guisubmenu>Gestore di Appunti</guisubmenu> nel dialogo, poi premi il pulsante <guibutton>OK</guibutton>. Glipper apparirà adesso nel pannello.</para>
+
+		<para>La disposizione dell'icona di <application>Glipper</application> nel pannello varia in base alla dimensione e tipo del pannello in cui l'applet risiede.</para>
+	</sect2>
+
+	<sect2 id="clipboards">
+		<title>Due tipi di appunti differenti</title>
+
+		<para>Sotto <application>X</application>, il sistema di gestione di finestre per cui <application>Glipper</application> è progettato, esistono due tipi di appunti differenti.</para>
+
+		<para>Gli appunti "copia" sono riempiti quando usi la funzione copia di un'applicazione. Di solito la funzione copia è usata selezionando del testo e premendo <keycombo><keycap>Ctrl+C</keycap></keycombo>, o con un pulsante <guibutton>Copia</guibutton>. Usa la funzione incolla di un'applicazione per incollare i contenuti degli appunti "copia". La funzione incolla è usata di solito premendo <keycombo><keycap>Ctrl+V</keycap></keycombo>, o con un pulsante <guibutton>Incolla</guibutton></para>
+
+		<para>Gli appunti "selezione" sono riempiti quando selezioni del testo in un'applicazioni. Nonappena selezioni del testo, viene inserito negli appunti "selezione". Per incollare del testo dagli appunti "selezione", premi semplicemente il tasto centrale del mouse.</para>
+
+		<note>
+		<para>In modo predefinito, i contenuti degli appunti "copia" sono evidenziati in grassetto nel <guimenu>menu principale</guimenu>. I contenuti degli appunti "selezione" sono mostrati in cima alla lista.</para>
+		</note>
+	</sect2>
+
+
+	<sect2 id="history">
+		<title>Selezionare un elemento dalla cronologia degli appunti</title>
+
+		<para><application>Glipper</application> ti permette di rimpiazzare i contenuti correnti degli appunti con un elemento della cronologia. Per usare un elemento precedentemente copiato negli appunti come i contenuti correnti degli appunti: <orderedlist>
+			 <listitem>
+			  <para>Apri il <guimenu>menu principale</guimenu> cliccando sull'icona di <application>Glipper</application> nel pannello. Puoi anche usare la scorciatoia da tastiera, che è <keycombo><keycap>Ctrl+Alt+C</keycap></keycombo> in modo predefinito.</para>
+			 </listitem>
+			 <listitem>
+			  <para>Clicca in un elemento della cronologia.</para>
+			 </listitem>
+			</orderedlist><note>
+		<para>Sia il contenuto degli appunti "copia" che degli appunti "selezione" sono sovrascritti quando selezioni un elemento dalla cronologia degli appunti. Il nuovo contenuto può essere incollato sia con la funzione incolla della tua applicazione che con il pulsante centrale del mouse.</para>
+		</note></para>
+	</sect2>
+  </sect1>
+
+  <sect1 id="preferences">
+    <title>Preferenze</title>
+
+	<para>Usa il dialogo <guilabel>Preferenze</guilabel> per adattare <application>Glipper</application> alle tue necessità e preferenze.</para>
+	<para>Per visualizzare la finestra di dialogo <guilabel>Preferenze</guilabel>, clicca con il pulsante destro sull'icona di <application>Glipper</application> nel pannello e seleziona <menuchoice><guimenuitem>Preferenze</guimenuitem></menuchoice>.</para>
+
+<table frame="topbot" id="preferences-TBL">
+        <title>Preferenze di Glipper</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="colspec0" colwidth="35.09*"/>
+          <colspec colname="colspec1" colwidth="64.91*"/>
+          <thead>
+            <row rowsep="1">
+              <entry>
+                <para>Elemento Dialogo</para>
+              </entry>
+              <entry>
+                <para>Descrizione</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">
+                <para>
+                  <guilabel>Numero di voci della cronologia</guilabel>
+                </para>
+              </entry>
+              <entry valign="top">
+		<para>Usa questa casella di selezione per specificare quante voci degli appunti devono essere salvate mostrate nel <guimenu>menu principale</guimenu>.</para>
+              </entry>
+            </row>
+            <row>
+              <entry valign="top">
+                <para>
+                  <guilabel>Lunghezza di una voce della cronologia</guilabel>
+                </para>
+              </entry>
+              <entry valign="top">
+		<para>Usa questa casella di selezione per specificare il massimo numero dei caratteri in un elemento della cronologia.</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="colspec0">
+                <para>
+                  <guilabel>Seleziona - Evidenzia/pulsante centrale del mouse</guilabel>
+                </para>
+              </entry>
+              <entry colname="colspec1">
+                <para>Seleziona questa opzione per mantenere una cronologia degli appunti "selezione".</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="colspec0" valign="top">
+                <para>
+                  <guilabel>Copia - Ctrl+C/Ctrl+V</guilabel>
+                </para>
+              </entry>
+              <entry colname="colspec1">
+                <para>Seleziona questa opzione per mantenere una cronologia degli appunti "copia".</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="colspec0" valign="top">
+                <para>
+                  <guilabel>Evidenzia i contenuti degli appunti Ctrl+C nella cronologia (grassetto)</guilabel>
+                </para>
+              </entry>
+              <entry colname="colspec1" valign="top">
+                <para>Seleziona questa opzione per far si che <application>Glipper</application> evidenzi i contenuti degli appunti "copia".</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="colspec0" valign="top">
+                <para>
+                  <guilabel>Salva cronologia</guilabel>
+                </para>
+              </entry>
+              <entry colname="colspec1" valign="top">
+                <para>Seleziona questa opzione per salvare i contenuti degli appunti. Se la selezioni, manterrai la cronologia degli appunti dalla tua ultima sessione.</para>
+              </entry>
+            </row>
+            <row>
+              <entry colname="colspec0" valign="top">
+                <para>
+                  <guilabel>Scorciatoia da tastiera per il popup</guilabel>
+                </para>
+              </entry>
+              <entry colname="colspec1" valign="top">
+                <para>Inserisci una combinazione da tastiera per cambiare la scorciatoia da tastiera del menù principale.</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+  </sect1>
+
+  <sect1 id="plugins">
+    <title>Plugin</title>
+    <para>Puoi aggiungere nuove funzioni a <application>Glipper</application> abilitando i plugin. Un plugin è un modulo che estende le funzionalità del programma principale di <application>Glipper</application>.</para>
+	 <para>Usa la finestra di dialogo <guilabel>Plugin</guilabel> per abilitare o disabilitare i plugin, o per vedere quali sono attualmente abilitati.</para>
+    <para>Per visualizzare la finestra di dialogo <guilabel>Plugin</guilabel>, clicca con il pulsante destro sull'icona <application>Glipper</application> nel pannello e seleziona <menuchoice><guimenuitem>Plugin</guimenuitem></menuchoice>.</para>
+    <para>I seguenti plugin sono presenti in un'installazione standard di <application>Glipper</application>: <itemizedlist>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-actions">Azioni</link></application> ti permette di definire comandi da eseguire quando un elemento corrisponde a un'espressione regolare.</para>
+  		  </listitem>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-network">Rete</link></application> connette più processi di Glipper via rete per sincronizzare la loro cronologia.</para>
+  		  </listitem>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-newline">Nuova linea</link></application> aggiunge un carattere di nuova linea alla fine degli elementi negli appunti.</para>
+  		  </listitem>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-nopaste">Nopaste</link></application> ti permette di incollare i contenuti dei tuoi appunti in un servizio Nopaste.</para>
+  		  </listitem>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-snippets">Snippet</link></application> ti permette di creare snippet da elementi della cronologia.</para>
+  		  </listitem>
+  		  <listitem>
+  		    <para><application><link linkend="plugins-grow">Crescita</link></application> riconosce se un nuovo elemento è una versione cresciuta del precedente e, se è così, elimina il precedente.</para>
+  		  </listitem>
+  		</itemizedlist></para>
+
+    <sect2 id="plugins-actions">    
+      <title>Plugin Azioni</title>
+      <para>Il plugin <application>Azioni</application> ti permette di definire comandi da eseguire quando un elemento corrisponde a un'espressione regolare.</para>
+      <para>Per gestire le tue azioni, seleziona il plugin <application>Azioni</application> dalla finestra di dialogo <guilabel>Plugin</guilabel> e clicca sul pulsante <guibutton>Preferenze</guibutton>.</para> 
+      <sect3>
+         <title>Preferenze</title>
+<table frame="topbot" id="plugins-nopaste-TBL">
+        <title>Preferenze di Azioni</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="colspec0" colwidth="35.09*"/>
+          <colspec colname="colspec1" colwidth="64.91*"/>
+          <thead>
+            <row rowsep="1">
+              <entry>
+                <para>Elemento Dialogo</para>
+              </entry>
+              <entry>
+                <para>Descrizione</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">
+                <para>
+                  <guilabel>Mostra immediatamente le azioni disponibili</guilabel>
+                </para>
+              </entry>
+              <entry valign="top">
+		<para>Seleziona questa opzione per mostrare un menu con le azioni disponibili quando un nuovo elemento viene aggiunto alla cronologia.</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      </sect3>
+      <sect3>
+      <title>Gestire le azioni</title>
+      <para>Il <guibutton>Gestore</guibutton> di <application>Azioni</application> mostra le azioni e i comandi che hai definito in una tabella. Per aggiungere una nuova azione, clicca il pulsante <guibutton>Aggiungi azione</guibutton>. L'azione appena creata apparirà ora nella tabella.</para>
+      <para>Per impostare l'espressione regolare e la descrizione per questa azione, clicca le etichette <guilabel>Nuova espressione regolare</guilabel> e <guilabel>Aggiungi la descrizione qui</guilabel> nella tabella. Puoi adesso aggiungere una lista di comandi da eseguire con l'azione specificata.</para>
+      <para>To add a new command to the specified action, select the row corresponding to the action in the table and then click the <guibutton>Add command</guibutton> button.</para>
+      <para>Per impostare il programma da eseguire e la descrizione per questo comando, clicca le etichette <guilabel>Nuovo comando</guilabel> e <guilabel>Aggiungi la descrizione qui</guilabel> nella tabella.</para>
+      <para>The command can use the current clipboard contents as an argument by using %s in the command definition.</para>
+      <para>Per rimuovere un'azione o un comando, seleziona il corrispondente elemento nella tabella, e clicca il pulsante <guibutton>Rimuovi</guibutton>.</para>
+      </sect3>
+      <sect3>
+      <title>Utilizzo delle azioni</title>
+      <para>To use the actions you defined in your preferences, select <guimenuitem>Actions</guimenuitem> from the <guimenu>main menu</guimenu>.</para>
+      <para>Seleziona la descrizione corrispondente all'azione che vuoi eseguire, e il comando verrà eseguito.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="plugins-network">    
+      <title>Plugin Rete</title>
+      <para>Il plugin <application>Rete</application> connette più processi di Glipper via rete per sincronizzare la loro cronologia.</para>
+      <para>Per impostare gli IP a cui vuoi connetterti, seleziona il plugin <application>Rete</application> dalla finestra di dialogo <guilabel>Plugin</guilabel> e clicca sul pulsante <guibutton>Preferenze</guibutton>.</para> 
+      <sect3>
+      <title>Gestire le connessioni</title>
+      <para>Le <guibutton>Preferenze</guibutton> di <application>Rete</application> mostrano due tabelle:</para>
+  		<itemizedlist>
+  		  <listitem>
+           <para>La prima tabella contiene la lista degli IP da cui vuoi accettare connessioni.</para>
+        </listitem>
+        <listitem>
+           <para>La seconda tabella contiene la lista degli IP a cui vuoi connetterti.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Per aggiungere nuove connessioni in una delle liste, clicca il pulsante <guibutton>Aggiungi</guibutton> corrispondente alla tabella a cui vuoi aggiungere l'IP.</para>
+      <para>Ti saranno chieste informazioni sulla connessione che stai creando. In questa finestra di dialogo, puoi anche specificare una password per proteggere la tua connessione da utenti non voluti.</para>
+      <para>Se hai aggiunto una connessione alla lista degli IP a cui vuoi connetterti, allora condividerai la tua cronologia quando cliccherai il pulsante <guibutton>Applica</guibutton></para>
+      <para>Per rimuovere connessioni dalla lista, seleziona la riga corrispondente alla connessione che vuoi rimuovere da una delle tabelle e clicca il pulsante <guibutton>Rimuovi</guibutton></para>
+      <para>Se non hai il Python Cryptography Toolkit (python-crypto) installato, o non usi una password, i tuoi dati verranno trasmessi in testo semplice. Questo può essere un grande rischio di sicurezza, perchè chiunque abbia accesso alla tua rete fisica può accedere tutti i dati che i tuoi computer stanno inviando. Se hai delle informazioni confidenziali negli appunti (come le password), queste non dovrebbero essere inviate non criptate.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="plugins-newline">    
+      <title>Plugin Nuova linea</title>
+      <para>Il plugin <application>Nuova linea</application> aggiunge un carattere di nuova linea alla fine degli elementi negli appunti.</para>
+      <para>Questo è solo un plugin di esempio.</para> 
+    </sect2>
+
+    <sect2 id="plugins-nopaste">    
+      <title>Plugin Nopaste</title>
+      <para>Il plugin <application>Nopaste</application> ti permette di incollare i contenuti dei tuoi appunti in un servizio Nopaste.</para>
+      <para>Un servizio Nopaste è un'applicazione web che permette i propri utenti di caricare blocchi di testo, di solito esempi di codice sorgente, per farli visualizzare al pubblico.</para>
+      <sect3>
+      <title>Preferenze</title>
+<table frame="topbot" id="plugins-nopaste-TBL">
+        <title>Preferenze di Nopaste</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="colspec0" colwidth="35.09*"/>
+          <colspec colname="colspec1" colwidth="64.91*"/>
+          <thead>
+            <row rowsep="1">
+              <entry>
+                <para>Elemento Dialogo</para>
+              </entry>
+              <entry>
+                <para>Descrizione</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">
+                <para>
+                  <guilabel>Linguaggio</guilabel>
+                </para>
+              </entry>
+              <entry valign="top">
+		<para>Usa questa casella di selezione per specificare qual'è il linguaggio di programmazione dei contenuti che vuoi incollare nel servizio Nopaste.</para>
+              </entry>
+            </row>
+            <row>
+              <entry valign="top">
+                <para>
+                  <guilabel>Nome</guilabel>
+                </para>
+              </entry>
+              <entry valign="top">
+		<para>Inserisci il nome che vuoi usare quando incolli nel servizio Nopaste</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      </sect3>
+      <sect3>
+      <title>Utilizzo di Nopaste</title>
+      <para>To paste the current clipboard contents to the Nopaste service, select <guimenuitem>Nopaste</guimenuitem> from the <guimenu>main menu</guimenu>.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="plugins-snippets">    
+      <title>Plugin Snippet</title>
+      <para>Il plugin <application>Snippet</application> ti permette di creare snippet dagli elementi della cronologia.</para>
+      <para>Gli snippet sono blocchi di testo che puoi usare in differenti situazioni.</para>
+      <para>Per gestire i tuoi snippet, seleziona il plugin <application>Snippets</application> dalla finestra di dialogo <guilabel>Plugin</guilabel> e clicca sul pulsante <guibutton>Preferenze</guibutton>.</para> 
+      <sect3>
+      <title>Gestire gli snippet</title>
+      <para>Il <guibutton>Gestore</guibutton> di <application>Snippet</application> mostra due tabelle:</para>
+  		<itemizedlist>
+  		  <listitem>
+           <para>La tabella sulla sinistra contiene la cronologia corrente.</para>
+        </listitem>
+        <listitem>
+           <para>La tabella sulla destra contiene gli snippet che hai aggiunto dalla cronologia.</para>
+        </listitem>
+      </itemizedlist>
+      <para>Per aggiungere un elemento della cronologia alla lista degli snippet, seleziona l'elemento che vuoi aggiungere dalla lista della cronologia e clicca il pulsante <guibutton>Aggiungi</guibutton>. Lo snippet appena creato apparirà ora nella lista degli snippet.</para>
+      <para>Per rimuovere uno snippet, seleziona il corrispondente elemento nella lista degli snippet, e clicca il pulsante <guibutton>Rimuovi</guibutton>.</para>
+      </sect3>
+      <sect3>
+      <title>Utilizzo degli snippet</title>
+      <para>Per riempire i contenuti dei tuoi appunti con uno snippet, seleziona <guimenuitem>Snippet</guimenuitem> dal <guimenu>menu principale</guimenu> e allora uno degli elementi nella lista degli snippet.</para>
+      </sect3>
+    </sect2>
+
+    <sect2 id="plugins-grow">    
+      <title>Plugin Crescita</title>
+      <para>Il plugin <application>Crescita</application> riconosce se un nuovo elemento è una versione cresciuta del precedente e, se è così, elimina il precedente.</para>
+    </sect2>
+  </sect1>
+
+  <sect1 id="legalm">
+    <title>Licenza</title>
+
+	<sect2 id="glipper-legal">
+		<title>Licenza di Glipper</title>
+		<para><application>Glipper</application> è distribuito sotto licenza GPL, vedi il dialogo di informazioni di <application>glipper</application> per dettagli</para>
+	</sect2>
+
+	<sect2 id="glipper-doc-legal">
+		<title>Licenza della Documentazione di Glipper</title>
+	<para>
+	  Permission is granted to copy, distribute and/or modify this
+	  document under the terms of the GNU Free Documentation
+	  License (GFDL), Version 1.1 or any later version published
+	  by the Free Software Foundation with no Invariant Sections,
+	  no Front-Cover Texts, and no Back-Cover Texts.  You can find
+	  a copy of the GFDL at this <ulink type="help" url="ghelp:fdl">link</ulink>.
+         </para>
+
+	<para>
+	  DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED
+	  UNDER  THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE
+	  WITH THE FURTHER UNDERSTANDING THAT:
+
+	  <orderedlist>
+		<listitem>
+		  <para>DOCUMENT IS PROVIDED ON AN "AS IS" BASIS,
+                    WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+                    IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES
+                    THAT THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR
+                    A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE
+                    RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE
+                    OF THE DOCUMENT OR MODIFIED VERSION OF THE
+                    DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR
+                    MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT,
+                    YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY
+                    CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY
+                    SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+                    OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS
+                    LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED
+                    VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER
+                    EXCEPT UNDER THIS DISCLAIMER; AND
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL
+                       THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE),
+                       CONTRACT, OR OTHERWISE, SHALL THE AUTHOR,
+                       INITIAL WRITER, ANY CONTRIBUTOR, OR ANY
+                       DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION
+                       OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH
+                       PARTIES, BE LIABLE TO ANY PERSON FOR ANY
+                       DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+                       CONSEQUENTIAL DAMAGES OF ANY CHARACTER
+                       INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS
+                       OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR
+                       MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR
+                       LOSSES ARISING OUT OF OR RELATING TO USE OF THE
+                       DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT,
+                       EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF
+                       THE POSSIBILITY OF SUCH DAMAGES.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+	</sect2>
+
+  </sect1>
+</article>

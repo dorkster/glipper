@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: glipper
+Version: 2.4
+Summary: A clipboard history manager
+Home-page: http://launchpad.net/glipper
+Author: Laszlo Pandy
+Author-email: laszlok2@gmail.com
+License: GNU GPL v2
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: gtk
+Requires: gio
+Requires: gconf
+Requires: keybinder
+Requires: prctl
+Requires: appindicator
+Requires: xdg

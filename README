@@ -1,0 +1,33 @@
+=============
+Glipper
+=============
+For more information, please visit our website:
+http://launchpad.net/glipper/
+
+============
+Requirements
+============
+Required dependencies:
+ * Python 2.4 or above
+ * pygtk-2.6 or above (modules: gtk, gtk.gdk, gobject)
+ * python-keybinder (module: keybinder)
+ * python-distutils-extra (module: DistUtilsExtra) is required for installation
+ * python-appindicator (module: appindicator)
+ * python-xdg (module: xdg.BaseDirectory)
+ * optional: python-prctl (module: prctl) to set process name
+ * optional: Python Cryptography Toolkit (python-crypto) for the network plugin
+
+=============
+Installation
+=============
+Execute the following steps to install glipper:
+
+sudo python setup.py install
+
+Then glipper app indicator will be set to load on startup. Autostart can be
+changed in GNOME Session Properties (gnome-session-properties), also known as
+Startup Applications in the system preferences.
+
+Or you can try it without installation, by running
+./glipper-uninstalled
+

@@ -1,0 +1,14 @@
+[encoding: UTF-8]
+glipper/AppIndicator.py
+glipper/About.py
+glipper/History.py
+glipper/PluginsManager.py
+[type: gettext/glade] data/preferences-window.ui
+[type: gettext/glade] data/plugins-window.ui
+glipper/plugins/actions.py
+glipper/plugins/network.py
+glipper/plugins/newline.py
+glipper/plugins/snippets.py
+glipper/plugins/actions.ui
+glipper/plugins/network.ui
+glipper/plugins/snippets.ui

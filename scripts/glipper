@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+#
+# (C) 2007 Sven Rech.
+# Licensed under the GNU GPL.
+
+import gobject
+gobject.threads_init()
+
+import gtk
+import getopt, sys
+from os.path import abspath, join, basename
+
+import glipper, glipper.defs
+
+sys.path.insert(0, glipper.PLUGINS_DIR)
+
+try:
+	# attempt to set a name for killall
+	import prctl
+	process_name = basename(__file__)
+	prctl.set_name(process_name)
+	print "Changed process name to:", process_name
+except:
+	print "Unable to set process name"
+
+import gettext, locale
+GETTEXT_DOMAIN = 'glipper'
+gettext.bindtextdomain(GETTEXT_DOMAIN, abspath(join(glipper.defs.DATA_DIR, "locale")))
+if hasattr(gettext, 'bind_textdomain_codeset'):
+	gettext.bind_textdomain_codeset(GETTEXT_DOMAIN,'UTF-8')
+gettext.textdomain(GETTEXT_DOMAIN)
+
+locale.bindtextdomain(GETTEXT_DOMAIN, abspath(join(glipper.defs.DATA_DIR, "locale")))
+if hasattr(locale, 'bind_textdomain_codeset'):
+	locale.bind_textdomain_codeset(GETTEXT_DOMAIN,'UTF-8')
+locale.textdomain(GETTEXT_DOMAIN)
+
+if __name__ == "__main__":
+	gobject.set_application_name('Glipper')
+	gobject.set_prgname('glipper')
+	
+	import glipper.AppIndicator
+	glipper.AppIndicator.AppIndicator()
+	
+	gtk.main()
+
+

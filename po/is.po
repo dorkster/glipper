@@ -1,0 +1,231 @@
+# Icelandic translation for glipper
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the glipper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 09:33+0100\n"
+"PO-Revision-Date: 2011-04-25 05:07+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <is@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-29 04:33+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
+"Language: is\n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>Tæma sögu</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "_Viðbætur"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "Klippispjaldsstjóri"
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Vefsvæði Glipper"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Sveinn í Felli https://launchpad.net/~sveinki"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "Virkt"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "Sjálfræsing"
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "Heiti"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "Lýsing"
+
+#: ../data/preferences-window.ui.h:1
+msgid "<Ctrl><Alt>c"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:2
+msgid "<b>Behaviour</b>"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:3
+msgid "<b>Clipboards</b>"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:4
+msgid "Copy (Ctrl+C/Ctrl+V)"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:5
+#, fuzzy
+msgid "Glipper Preferences"
+msgstr "Glipper notandi"
+
+#: ../data/preferences-window.ui.h:6
+msgid "Key combination for popup: "
+msgstr ""
+
+#: ../data/preferences-window.ui.h:7
+msgid "Number of items in history:"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:8
+msgid "Remember clipboard history on restart"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:9
+msgid "Selection (mark/middle mouse button)"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:10
+msgid "Show current Ctrl+C contents in bold"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:11
+msgid "Which clipboards should be managed by Glipper?"
+msgstr ""
+
+#: ../data/plugins-window.ui.h:1
+#, fuzzy
+msgid "Glipper plugins"
+msgstr "Glipper notandi"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "Engar aðgerðir mögulegar"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr "Aðgerðir"
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr ""
+"Skilgreindu skipanir sem á að keyra þegar atriði samsvarar reglulegri segð."
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "Bæta við skipun"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "Eyða aðgerð"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "Fjarlægja skipun"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "Ný skipun"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "Settu hér inn lýsingu"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "Ný regluleg segð"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr "Netkerfi"
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"Tengdu saman nokkur Glipper ferli um net til að samræma ferilskráningu þeirra"
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "Lykilorð"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"Þú þarft að setja upp Python Cryptography Toolkit (python-crypto) ef þú "
+"ætlar að nota dulritaðar tengingar!"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "Ný tenging"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "Settu inn IP vistfang: "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "Settu inn lykilorð fyrir þessa tengingu: "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr "Ný lína"
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr "Sýniviðbót sem bætir nýlínumerki við enda atriða á klippisjaldinu"
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "Ferill"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "Bútar (snippets)"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "Engir bútar tiltækir"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "Búa til búta úr ferilsatriðum"
+
+#~ msgid "Nopaste"
+#~ msgstr "Nopaste"
+
+#~ msgid "Paste the entry of your clipboard to a Nopaste service"
+#~ msgstr "Líma atriði af klippiborðinu þínu inn í Nopaste þjónustu"
+
+#~ msgid "pasted by Glipper"
+#~ msgstr "límt inn af Glipper"
+
+#~ msgid "Grow"
+#~ msgstr "Stækka"
+
+#~ msgid ""
+#~ "This plugin detects whether a new entry is just a grown version of the "
+#~ "previous one, and if so, deletes the previous."
+#~ msgstr ""
+#~ "Þessi viðbót skynjar hvort ný færsla er bara stærri útgáfa af þeirri "
+#~ "síðustu, og ef svo er, eyðir þá þeirri síðarnefndu."

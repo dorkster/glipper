@@ -1,0 +1,191 @@
+#
+# Japanese translation of Glipper.
+#
+# This file is distributed under the same license as the Glipper package.
+#
+# Translated by smeghead <smeghead7@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-28 14:11+0200\n"
+"PO-Revision-Date: 2011-08-18 21:29+0000\n"
+"Last-Translator: smeghead <Unknown>\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-08-19 04:32+0000\n"
+"X-Generator: Launchpad (build 13697)\n"
+"Language: \n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>履歴がありません</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "プラグイン"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "クリップボードを管理します。"
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Glipper WEBサイト"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr ""
+"smeghead <smeghead7@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  smeghead https://launchpad.net/~smeghead7"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "有効"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "自動開始"
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "名前"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "説明"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "有効なアクションがありません"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr ""
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr "アイテムが正規表現にヒットした時、実行するコマンドを定義します。"
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "コマンドの追加"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "アクションの削除"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "コマンドの削除"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "コマンドの追加"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "ここに説明を入力して下さい"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "新しい正規表現"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr ""
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"履歴を同期するためネットワークを経由して複数のGlipperプロセスを接続します"
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "パスワード"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"暗号化された接続を使いたい場合は、Python Cryptography Toolkit (python-crypto)"
+"をインストールして下さい!"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "新しい接続"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "IPアドレス: "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "この接続のパスワード: "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr ""
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr ""
+"クリップボードのアイテムの末尾に改行文字を追加するExampleプラグインです"
+
+#: ../glipper/plugins/nopaste.py:7 ../glipper/plugins/nopaste.py:42
+msgid "Nopaste"
+msgstr ""
+
+#: ../glipper/plugins/nopaste.py:8
+msgid "Paste the entry of your clipboard to a Nopaste service"
+msgstr "クリップボードのエントリをNopasteサービスに貼り付けます"
+
+#: ../glipper/plugins/nopaste.py:37
+msgid "pasted by Glipper"
+msgstr "Glipper で貼り付ける"
+
+#: ../glipper/plugins/nopaste.py:58
+msgid "Glipper user"
+msgstr "Glipperユーザ"
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "履歴"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "定型文"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "定型文がありません"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "履歴アイテムから定型文を作成します。"
+
+#: ../glipper/plugins/grow.py:12
+msgid "Grow"
+msgstr ""
+
+#: ../glipper/plugins/grow.py:13
+msgid ""
+"This plugin detects whether a new entry is just a grown version of the "
+"previous one, and if so, deletes the previous."
+msgstr "前のアイテムが選択範囲決定中の場合に直前のアイテムを削除するプラグインです。"

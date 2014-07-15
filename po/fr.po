@@ -1,0 +1,303 @@
+# French translation of Glipper.
+#
+# This file is distributed under the same license as the Glipper package.
+# Sammy <erlk.ozlr@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 09:33+0100\n"
+"PO-Revision-Date: 2011-04-25 05:04+0000\n"
+"Last-Translator: Benjamin Danon <benjamin@sphax3d.org>\n"
+"Language-Team: French <>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-09-18 04:38+0000\n"
+"X-Generator: Launchpad (build 13955)\n"
+"Language: fr\n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>Historique vide</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "_Greffons"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "Un gestionnaire de presse-papiers."
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Site web de Glipper"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr ""
+"Sammy <erlk.ozlr@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Benjamin Danon https://launchpad.net/~sphax3d\n"
+"  erlk ozlr https://launchpad.net/~erlk-ozlr"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "Lancer auto."
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "Nom"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "Description"
+
+#: ../data/preferences-window.ui.h:1
+msgid "<Ctrl><Alt>c"
+msgstr "<Ctrl><Alt>c"
+
+#: ../data/preferences-window.ui.h:2
+msgid "<b>Behaviour</b>"
+msgstr "<b>Comportement</b>"
+
+#: ../data/preferences-window.ui.h:3
+msgid "<b>Clipboards</b>"
+msgstr "<b>Presses-papiers</b>"
+
+#: ../data/preferences-window.ui.h:4
+#, fuzzy
+msgid "Copy (Ctrl+C/Ctrl+V)"
+msgstr "Copier - Ctrl+C/Ctrl+V"
+
+#: ../data/preferences-window.ui.h:5
+#, fuzzy
+msgid "Glipper Preferences"
+msgstr "Paramètres de Glipper"
+
+#: ../data/preferences-window.ui.h:6
+msgid "Key combination for popup: "
+msgstr "Raccourci clavier pour le menu Glipper : "
+
+#: ../data/preferences-window.ui.h:7
+#, fuzzy
+msgid "Number of items in history:"
+msgstr "Nombre d'entrées dans l'historique :"
+
+#: ../data/preferences-window.ui.h:8
+msgid "Remember clipboard history on restart"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:9
+#, fuzzy
+msgid "Selection (mark/middle mouse button)"
+msgstr "Sélection - Sélectionner/clic milieu souris"
+
+#: ../data/preferences-window.ui.h:10
+msgid "Show current Ctrl+C contents in bold"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:11
+msgid "Which clipboards should be managed by Glipper?"
+msgstr "Quels types de presse-papiers doivent être gérés par Glipper ?"
+
+#: ../data/plugins-window.ui.h:1
+#, fuzzy
+msgid "Glipper plugins"
+msgstr "Utilisateur de Glipper"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "Aucune action disponible"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr "Actions"
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr ""
+"Définir des commandes à lancer quand une entrée correspond à une expression "
+"régulière."
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "Ajouter une commande"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "Enlever l'action"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "Enlever la commande"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "Nouvelle commande"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "Entrer la description ici"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "Nouvelle expression régulière"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr "Réseau"
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"Connecter plusieurs Glipper par le réseau pour synchroniser leurs historiques"
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"Vous devez installer \"Python Cryptography Toolkit\" (python-crypto) si vous "
+"souhaitez chiffrer les connexions !"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "Nouvelle connexion"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "Entrer l'adresse IP : "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "Entrer le mot de passe de cette connexion : "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr "Retour à la ligne"
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr ""
+"Greffon d'exemple qui ajoute un retour à la ligne à la fin de chaque entrée "
+"du presse-papier"
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "Historique"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "Fragments de code"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "Aucun fragment disponible"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "Créer des fragments de code depuis l'historique"
+
+#~ msgid ""
+#~ "This plugin detects whether a new entry is just a grown version of the "
+#~ "previous one, and if so, deletes the previous."
+#~ msgstr ""
+#~ "Ce greffon détecte si une nouvelle entrée est qu'une version plus grande "
+#~ "de l'entrée précédente, et supprime la plus petite dans ce cas."
+
+#~ msgid "<b>Limits</b>"
+#~ msgstr "<b>Limites</b>"
+
+#~ msgid "Length of one history entry:"
+#~ msgstr "Taille d'une entrée de l'historique :"
+
+#~ msgid "Save history"
+#~ msgstr "Sauvegarde l'historique"
+
+#~ msgid "Tag Ctrl+C clipboard's content in history (bold)"
+#~ msgstr "Marquer le contenu copié avec Ctrl+C dans l'historique (en gras)"
+
+#~ msgid "Action manager"
+#~ msgstr "Gestionnaire d'actions"
+
+#~ msgid "Add action"
+#~ msgstr "Ajouter une action"
+
+#~ msgid "Immediately show available actions"
+#~ msgstr "Montrer immédiatement les actions disponibles"
+
+#~ msgid "<b>Connections</b>"
+#~ msgstr "<b>Connexions</b>"
+
+#~ msgid "Accept connections from this hosts:"
+#~ msgstr "Accepter les connexions depuis ces hôtes :"
+
+#~ msgid "Connect to:"
+#~ msgstr "Se connecter à :"
+
+#~ msgid "Network preferences"
+#~ msgstr "Paramètres réseau"
+
+#~ msgid ""
+#~ "Please read the security informations about this plugin before using it!"
+#~ msgstr ""
+#~ "Lisez s'il vous plait les informations de sécurité du greffon avant de "
+#~ "l'utiliser."
+
+#~ msgid "Language:"
+#~ msgstr "Langage :"
+
+#~ msgid "Nickname:"
+#~ msgstr "Pseudonyme :"
+
+#~ msgid "Nopaste preferences"
+#~ msgstr "Paramètres de Nopaste"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Remove"
+#~ msgstr "Enlever"
+
+#~ msgid "Snippets manager"
+#~ msgstr "Gestionnaire de fragments de code"
+
+#~ msgid "Glipper - Popup shortcut: "
+#~ msgstr "Glipper - raccourci du menu : "
+
+#~ msgid "_About"
+#~ msgstr "À propo_s"
+
+#~ msgid "_Help"
+#~ msgstr "_Aide"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Paramètres"
+
+#~ msgid "Clipboard manager"
+#~ msgstr "Gestionnaire de presse-papiers"
+
+#~ msgid "Manages clipboards"
+#~ msgstr "Gère les presse-papiers"

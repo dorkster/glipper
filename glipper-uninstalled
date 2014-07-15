@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+
+import os
+
+PYTHONPATH = os.environ.get('PYTHONPATH', '')
+
+if PYTHONPATH:
+	os.environ['PYTHONPATH'] = os.getcwd() + ":" + PYTHONPATH
+else:
+	os.environ['PYTHONPATH'] = os.getcwd()
+
+os.environ['_GLIPPER_UNINSTALLED'] = '1'
+
+os.system("./scripts/glipper")

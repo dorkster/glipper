@@ -1,0 +1,323 @@
+#
+# Italian translation of Glipper.
+#
+# This file is distributed under the same license as the Glipper package.
+#
+# Translated by Eugenio Depalo <eugeniodepalo@mac.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 09:33+0100\n"
+"PO-Revision-Date: 2011-05-02 20:09+0000\n"
+"Last-Translator: simone.sandri <lexluxsox@hotmail.it>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-30 04:37+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
+"Language: \n"
+
+#: ../glipper/AppIndicator.py:74
+msgid "<i>Empty history</i>"
+msgstr "<i>Cronologia vuota</i>"
+
+#: ../glipper/AppIndicator.py:112
+msgid "Pl_ugins"
+msgstr "Pl_ugins"
+
+#: ../glipper/About.py:29
+msgid "Glipper"
+msgstr "Glipper"
+
+#: ../glipper/About.py:32
+msgid "A clipboard manager."
+msgstr "Un gestore di appunti."
+
+#: ../glipper/About.py:35
+msgid "Glipper website"
+msgstr "Sito web di Glipper"
+
+#. translators: These appear in the About dialog, usual format applies.
+#: ../glipper/About.py:46
+msgid "translator-credits"
+msgstr ""
+"Eugenio Depalo <eugeniodepalo@mac.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  simone.sandri https://launchpad.net/~lexluxsox"
+
+#: ../glipper/PluginsManager.py:122
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../glipper/PluginsManager.py:125
+msgid "Autostart"
+msgstr "Autoavvia"
+
+#: ../glipper/PluginsManager.py:126
+msgid "Name"
+msgstr "Nome"
+
+#: ../glipper/PluginsManager.py:127
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../data/preferences-window.ui.h:1
+msgid "<Ctrl><Alt>c"
+msgstr "<Ctrl><Alt>c"
+
+#: ../data/preferences-window.ui.h:2
+msgid "<b>Behaviour</b>"
+msgstr "<b>Comportamento</b>"
+
+#: ../data/preferences-window.ui.h:3
+msgid "<b>Clipboards</b>"
+msgstr "<b>Appunti</b>"
+
+#: ../data/preferences-window.ui.h:4
+#, fuzzy
+msgid "Copy (Ctrl+C/Ctrl+V)"
+msgstr "Copia - Ctrl+C/Ctrl+V"
+
+#: ../data/preferences-window.ui.h:5
+#, fuzzy
+msgid "Glipper Preferences"
+msgstr "Preferenze di Glipper"
+
+#: ../data/preferences-window.ui.h:6
+msgid "Key combination for popup: "
+msgstr "Scorciatoia da tastiera per il popup: "
+
+#: ../data/preferences-window.ui.h:7
+#, fuzzy
+msgid "Number of items in history:"
+msgstr "Numero di voci nella cronologia:"
+
+#: ../data/preferences-window.ui.h:8
+msgid "Remember clipboard history on restart"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:9
+#, fuzzy
+msgid "Selection (mark/middle mouse button)"
+msgstr "Seleziona - Evidenzia/pulsante centrale del mouse"
+
+#: ../data/preferences-window.ui.h:10
+msgid "Show current Ctrl+C contents in bold"
+msgstr ""
+
+#: ../data/preferences-window.ui.h:11
+msgid "Which clipboards should be managed by Glipper?"
+msgstr "Quali tipi di appunti devono essere gestiti da Glipper?"
+
+#: ../data/plugins-window.ui.h:1
+#, fuzzy
+msgid "Glipper plugins"
+msgstr "Utente Glipper"
+
+#: ../glipper/plugins/actions.py:42
+msgid "No actions available"
+msgstr "Nessun'azione disponibile"
+
+#: ../glipper/plugins/actions.py:58 ../glipper/plugins/actions.py:76
+msgid "Actions"
+msgstr "Azioni"
+
+#: ../glipper/plugins/actions.py:77
+msgid "Define commands to run when an item matches a regular expression."
+msgstr ""
+"Definisci comandi da eseguire quando un elemento è conforme a un'espressione "
+"regolare."
+
+#: ../glipper/plugins/actions.py:186
+msgid "Add command"
+msgstr "Aggiungi comando"
+
+#: ../glipper/plugins/actions.py:189
+msgid "Delete action"
+msgstr "Rimuovi azione"
+
+#: ../glipper/plugins/actions.py:195
+msgid "Delete command"
+msgstr "Rimuovi comando"
+
+#: ../glipper/plugins/actions.py:206 ../glipper/plugins/actions.py:256
+msgid "New command"
+msgstr "Nuovo comando"
+
+#: ../glipper/plugins/actions.py:209 ../glipper/plugins/actions.py:243
+#: ../glipper/plugins/actions.py:259
+msgid "Enter description here"
+msgstr "Aggiungi la descrizione qui"
+
+#: ../glipper/plugins/actions.py:240
+msgid "New regular expression"
+msgstr "Nuova espressione regolare"
+
+#: ../glipper/plugins/network.py:17
+msgid "Network"
+msgstr "Rete"
+
+#: ../glipper/plugins/network.py:18
+msgid ""
+"Connect multiple Glipper processes via network to synchronize their history"
+msgstr ""
+"Connetti più processi di Glipper via rete per sincronizzare la loro "
+"cronologia"
+
+#: ../glipper/plugins/network.py:291 ../glipper/plugins/network.py:301
+msgid "Password"
+msgstr "Password"
+
+#: ../glipper/plugins/network.py:321
+msgid ""
+"You have to install the Python Cryptography Toolkit (python-crypto) if you "
+"want to use encrypted connections!"
+msgstr ""
+"Se vuoi usare le connessioni criptate devi installare il Python Cryptography "
+"Toolkit (python-crypto)"
+
+#: ../glipper/plugins/network.py:326
+msgid "New connection"
+msgstr "Nuova connessione"
+
+#: ../glipper/plugins/network.py:331
+msgid "Enter IP address: "
+msgstr "Inserisci indirizzo IP: "
+
+#: ../glipper/plugins/network.py:337
+msgid "Enter Password for this Connection: "
+msgstr "Inserisci la Password per questa Connessione: "
+
+#: ../glipper/plugins/newline.py:26
+msgid "New line"
+msgstr "Nuova linea"
+
+#: ../glipper/plugins/newline.py:27
+msgid ""
+"Example plugin that adds a newline character at the end of items in the "
+"clipboard"
+msgstr ""
+"Plugin di esempio che aggiunge un carattere di nuova linea alla fine degli "
+"elementi negli appunti"
+
+#: ../glipper/plugins/snippets.py:54
+msgid "History"
+msgstr "Cronologia"
+
+#: ../glipper/plugins/snippets.py:62 ../glipper/plugins/snippets.py:110
+#: ../glipper/plugins/snippets.py:148
+msgid "Snippets"
+msgstr "Snippet"
+
+#: ../glipper/plugins/snippets.py:129
+msgid "No snippets available"
+msgstr "Nessuno snippet disponibile"
+
+#: ../glipper/plugins/snippets.py:149
+msgid "Create snippets from history items"
+msgstr "Crea snippet dagli elementi della cronologia"
+
+#~ msgid "Nopaste"
+#~ msgstr "Nulla da incollare"
+
+#~ msgid "Paste the entry of your clipboard to a Nopaste service"
+#~ msgstr "Incolla i contenuti dei tuoi appunti in un servizio Nopaste"
+
+#~ msgid "pasted by Glipper"
+#~ msgstr "incollato da Glipper"
+
+#~ msgid "Grow"
+#~ msgstr "Crescita"
+
+#~ msgid ""
+#~ "This plugin detects whether a new entry is just a grown version of the "
+#~ "previous one, and if so, deletes the previous."
+#~ msgstr ""
+#~ "Questo plugin riconosce se un nuovo elemento è una versione cresciuta del "
+#~ "precedente e, se è così, elimina il precedente."
+
+#~ msgid "<b>Limits</b>"
+#~ msgstr "<b>Limiti</b>"
+
+#~ msgid "Length of one history entry:"
+#~ msgstr "Lunghezza di una voce della cronologia:"
+
+#~ msgid "Save history"
+#~ msgstr "Salva cronologia"
+
+#~ msgid "Tag Ctrl+C clipboard's content in history (bold)"
+#~ msgstr ""
+#~ "Evidenzia il contenuto degli appunti Ctrl+C nella cronologia (grassetto)"
+
+#~ msgid "Action manager"
+#~ msgstr "Gestore di azioni"
+
+#~ msgid "Add action"
+#~ msgstr "Aggiungi azione"
+
+#~ msgid "Immediately show available actions"
+#~ msgstr "Mostra subito le azioni disponibili"
+
+#~ msgid "<b>Connections</b>"
+#~ msgstr "<b>Connessioni</b>"
+
+#~ msgid "Accept connections from this hosts:"
+#~ msgstr "Accetta connessione da questi host:"
+
+#~ msgid "Connect to:"
+#~ msgstr "Connetti a:"
+
+#~ msgid "Network preferences"
+#~ msgstr "Preferenze di Rete"
+
+#~ msgid ""
+#~ "Please read the security informations about this plugin before using it!"
+#~ msgstr ""
+#~ "Per favore leggi le informazioni di sicurezza su questo plugin prima di "
+#~ "usarlo!"
+
+#~ msgid "Language:"
+#~ msgstr "Linguaggio:"
+
+#~ msgid "Nickname:"
+#~ msgstr "Nome:"
+
+#~ msgid "Nopaste preferences"
+#~ msgstr "Preferenze di Nopaste"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Snippets manager"
+#~ msgstr "Gestore di snippet"
+
+#~ msgid "Glipper - Popup shortcut: "
+#~ msgstr "Glipper - Scorciatoia per il popup: "
+
+#~ msgid "_About"
+#~ msgstr "I_nformazioni"
+
+#~ msgid "_Help"
+#~ msgstr "A_iuto"
+
+#~ msgid "_Preferences"
+#~ msgstr "P_referenze"
+
+#~ msgid "Clipboard manager"
+#~ msgstr "Gestore di appunti"
+
+#~ msgid "Manages clipboards"
+#~ msgstr "Gestisce i tuoi appunti"
+
+#~ msgid "Popup available actions when a new item gets added to the history"
+#~ msgstr ""
+#~ "Mostra le azioni disponibili quando un nuovo elemento viene aggiunto alla "
+#~ "cronologia"
