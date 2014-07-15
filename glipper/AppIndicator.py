@@ -160,8 +160,8 @@ if save_history == None:
 glipper.GCONF_CLIENT.notify_add(glipper.GCONF_SAVE_HISTORY, lambda x, y, z, a: on_save_history_changed (z.value))
 
 max_item_length = glipper.GCONF_CLIENT.get_int(glipper.GCONF_MAX_ITEM_LENGTH)
-if max_item_length == None:
-	max_elements = 35
+if max_item_length == None or max_item_length == 0:
+	max_item_length = 35
 glipper.GCONF_CLIENT.notify_add(glipper.GCONF_MAX_ITEM_LENGTH, lambda x, y, z, a: on_max_item_length_changed (z.value))
 
 def on_mark_default_entry_changed(value):
